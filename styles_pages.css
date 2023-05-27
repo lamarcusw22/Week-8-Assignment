@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
+
+.back-button:active {
+    background-color: #111;
+}
+
+.image-paragraph-container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 25%;
+}
+
+p {
+    flex: 1;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #8d4f4f;
+}
+
+th {
+    background-color: #8d4949;
+}
